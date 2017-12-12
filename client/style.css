@@ -1,0 +1,18 @@
+* {box-sizing: border-box; margin: 0; padding: 0; vertical-align: top;}
+body {background: #fff; font-family: Arial;}
+
+ul.cells {align-items: center; display: flex; flex-wrap: wrap; list-style: none;}
+li.cell {background: #eee; border: solid #fff 5px; color: #fff; height: 60px; padding: 13px 0; text-align: center; width: 60px;}
+li.cell:hover {background: #ddd; cursor: pointer;}
+li.cell.opened {background: #93c;}
+li.cell.opened.old {background: #aaa;}
+li.cell.opened.exit {background: #d22;}
+
+.start-btn {background: #2d2; border: solid #fff 5px; color: #000; cursor: pointer; font-size: 1.2em; padding: 8px 20px 10px 20px;}
+
+.score {align-items: flex-start; display: flex; flex-wrap: wrap; list-style: none; max-width: 400px;}
+.score {border: solid #fff 5px;}
+.score li {padding: 5px 10px; width: 50%;}
+.score li:nth-child(2n+1) {border-right: solid #fff 10px;}
+.score .player {background: #aaa;}
+.score .prize {background: #eee;}
